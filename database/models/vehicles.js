@@ -73,10 +73,7 @@ module.exports.init = (sequelize, { DataTypes, Model }) => {
     windowTint: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      defaultValue: 0,
-      validate: {
-        min: 0
-      }
+      defaultValue: 0
     },
     extras: {
       type: DataTypes.JSON,
