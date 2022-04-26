@@ -76,7 +76,7 @@ module.exports.init = (sequelize, { DataTypes, Model }) => {
     extras: {
       type: DataTypes.JSON,
       allowNull: false,
-      defaultValue: {}
+      defaultValue: []
     }
   }, {
     sequelize,
