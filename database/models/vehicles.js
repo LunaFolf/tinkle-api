@@ -45,6 +45,11 @@ module.exports.init = (sequelize, { DataTypes, Model }) => {
         return idSplit.substring(0, 8).toUpperCase()
       }
     },
+    xenonHeadlights: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: false
+    },
     customWheels: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
