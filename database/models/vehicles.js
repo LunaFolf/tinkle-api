@@ -25,6 +25,11 @@ module.exports.init = (sequelize, { DataTypes, Model }) => {
       allowNull: false,
       defaultValue: {}
     },
+    styles: {
+      type: DataTypes.JSON,
+      allowNull: false,
+      defaultValue: {}
+    },
     colors: {
       type: DataTypes.JSON,
       allowNull: false,
