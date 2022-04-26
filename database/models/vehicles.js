@@ -29,6 +29,44 @@ module.exports.init = (sequelize, { DataTypes, Model }) => {
       type: DataTypes.JSON,
       allowNull: false,
       defaultValue: [0, 0]
+    },
+    licensePlate: {
+      type: DataTypes.STRING,
+      allowNull: true,
+      defaultValue: null,
+      validate: {
+        max: 8
+      },
+      get() {
+        const rawValue = this.getDataValue('licensePlate')
+        if (rawValue) return rawValue.toUpperCase()
+        const id = this.getDataValue('id')
+        const idSplit = id.split('-')[0]
+        return idSplit.substring(0, 8).toUpperCase()
+      }
+    },
+    customWheels: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: false
+    },
+    turbo: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: false
+    },
+    windowTint: {
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      defaultValue: 0,
+      validate: {
+        min: 0
+      }
+    },
+    extras: {
+      type: DataTypes.JSON,
+      allowNull: false,
+      defaultValue: {}
     }
   }, {
     sequelize,
