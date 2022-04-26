@@ -50,6 +50,11 @@ module.exports.init = (sequelize, { DataTypes, Model }) => {
       allowNull: false,
       defaultValue: false
     },
+    bulletProofTyres: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: false
+    },
     turbo: {
       type: DataTypes.BOOLEAN,
       allowNull: false,
