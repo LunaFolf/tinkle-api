@@ -1,0 +1,26 @@
+{
+  "name": "tinkle-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "nodemon index.js"
+  },
+  "dependencies": {
+    "@whiskeedev/trestle": "^1.1.6",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "luxon": "^2.3.2",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "nodemonConfig": {
+    "legacyWatch": true,
+    "ext": "js,env",
+    "events": {
+      "crash": "echo crashed && exit 1"
+    }
+  }
+}

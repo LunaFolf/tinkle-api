@@ -1,0 +1,38 @@
+[36m[17:04:38] [39m[33m[Database][39m Model [36mCharacter[39m loaded 
+[36m[17:04:38] [39m[33m[Database][39m Model [36mUser[39m loaded 
+[36m[17:04:38] [39m[33m[Database][39m Model [36mVehicle[39m loaded 
+[36m[17:04:38] [39m[35m[index.js][39m [32mDatabase successfully initialized[39m 
+[36m[17:04:38] [39m[33m[Router] Loading routes from ./routes/Authentication/index.js[39m 
+[36m[17:04:38] [39m[33m[Router] Loading routes from ./routes/DatabaseModels/index.js[39m 
+[36m[17:04:38] [39m[47m [33mD[39m[32mE[39m[34mB[39m[35mU[39m[31mG[39m [49m 
+{} 
+
+[36m[17:04:38] [39m[43m[31m WARNING [39m[49m [33m[TrestleAPI][39m [31m[43mWARNING: Running in insecure mode, this is not recommended.[49m[39m 
+[36m[17:04:38] [39m[33m[TrestleAPI][39m [36mPort: 8081[39m Creating Listening Server... 
+[36m[17:04:38] [39m[33m[TrestleAPI][39m Added new route [33mPublic[39m [36m[POST] /authenticate[39m 
+[36m[17:04:38] [39m[33m[TrestleAPI][39m Added new route [33mPublic[39m [36m[GET] /characters[39m 
+[36m[17:04:38] [39m[33m[TrestleAPI][39m Added new route [33mPublic[39m [36m[GET] /characters/:id[39m 
+[36m[17:04:38] [39m[33m[TrestleAPI][39m Added new route [33mPublic[39m [36m[POST] /characters[39m 
+[36m[17:04:38] [39m[33m[TrestleAPI][39m Added new route [33mPublic[39m [36m[GET] /users[39m 
+[36m[17:04:38] [39m[33m[TrestleAPI][39m Added new route [33mPublic[39m [36m[GET] /users/:id[39m 
+[36m[17:04:38] [39m[33m[TrestleAPI][39m Added new route [33mPublic[39m [36m[POST] /users[39m 
+[36m[17:04:38] [39m[33m[TrestleAPI][39m Added new route [33mPublic[39m [36m[GET] /vehicles[39m 
+[36m[17:04:38] [39m[33m[TrestleAPI][39m Added new route [33mPublic[39m [36m[GET] /vehicles/:id[39m 
+[36m[17:04:38] [39m[33m[TrestleAPI][39m Added new route [33mPublic[39m [36m[POST] /vehicles[39m 
+[36m[17:06:33] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [GET] /vehicles 
+[36m[17:06:37] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [GET] /users 
+[36m[17:06:53] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [GET] /users 
+[36m[17:07:05] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [POST] /authenticate 
+[36m[17:07:29] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [POST] /authenticate 
+[36m[17:53:57] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [POST] /authenticate 
+[36m[19:01:27] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [POST] /authenticate 
+[36m[19:15:34] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [POST] /authenticate 
+[36m[19:25:45] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [POST] /authenticate 
+[36m[19:29:37] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [POST] /authenticate 
+[36m[19:32:40] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [POST] /authenticate 
+[36m[19:32:52] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [POST] /authenticate 
+[36m[19:34:02] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [POST] /authenticate 
+[36m[19:34:12] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [POST] /authenticate 
+[36m[19:37:57] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [POST] /authenticate 
+[36m[19:38:52] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [POST] /authenticate 
+[36m[21:43:10] [39m[33m[TrestleAPI][39m ::ffff:172.29.112.1 [POST] /authenticate 
