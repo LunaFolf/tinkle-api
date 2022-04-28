@@ -1,7 +1,7 @@
 const routes = []
 
 const models = process.database.models
-console.debug(models)
+// console.debug(models)
 Object.keys(models).forEach(modelName => {
   const model = models[modelName]
 
@@ -20,7 +20,9 @@ Object.keys(models).forEach(modelName => {
     },
     async handler ({ response, query }) {
       const filters = rawAttributes.filter(attribute => Object.keys(query).includes(attribute))
-      const data = await model.findAll()
+      const data = await model.findAll({
+        order: [['createdAt', 'DESC']]
+      })
       const filteredData = data.filter(item => {
         return filters.every(filter => {
           return String(item[filter]).toLowerCase().startsWith(String(query[filter]).toLowerCase())
