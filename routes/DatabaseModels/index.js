@@ -21,7 +21,7 @@ Object.keys(models).forEach(modelName => {
     async handler ({ response, query }) {
       const filters = rawAttributes.filter(attribute => Object.keys(query).includes(attribute))
       const data = await model.findAll({
-        order: [['createdAt', 'DESC']]
+        order: [['createdAt', 'ASC']]
       })
       const filteredData = data.filter(item => {
         return filters.every(filter => {
