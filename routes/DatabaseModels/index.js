@@ -6,7 +6,13 @@ Object.keys(models).forEach(modelName => {
   const model = models[modelName]
 
   let modelPathName = modelName.toLowerCase()
-  if (!modelPathName.endsWith('s')) modelPathName += 's'
+  if (!modelPathName.endsWith('s')) {
+    if (modelPathName.endsWith('y')) {
+      modelPathName = modelPathName.slice(0, -1) + 'ies'
+    } else {
+      modelPathName += 's'
+    }
+  }
   modelPathName = `/${modelPathName}`
 
   const rawAttributes = Object.keys(model.rawAttributes)

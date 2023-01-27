@@ -39,6 +39,10 @@ module.exports.init = (sequelize, { DataTypes, Model }) => {
     license2: { // Electric Boogaloo?
       type: DataTypes.STRING,
       allowNull: true
+    },
+    lastLocation: {
+      type: DataTypes.JSON,
+      allowNull: true
     }
   }, {
     sequelize,
@@ -56,6 +60,11 @@ module.exports.associate = (models) => {
 
   models.User.hasMany(models.Vehicle, {
     foreignKey: 'userId',
-    as: 'vehicle'
+    as: 'vehicles'
+  })
+
+  models.User.hasMany(models.Property, {
+    foreignKey: 'userId',
+    as: 'properties'
   })
 }

@@ -99,4 +99,9 @@ module.exports.associate = (models) => {
     foreignKey: 'userId',
     as: 'owner'
   })
+
+  models.Vehicle.belongsTo(models.Property, {
+    foreignKey: 'garageId',
+    as: 'garage'
+  })
 }

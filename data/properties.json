@@ -1,0 +1,524 @@
+[
+  {
+    "slug": "sm_garage_roy_lowenstein",
+    "type": "garage",
+    "name": "Roy Lowenstein",
+    "markers": {
+      "intercom": [
+        526.45,
+        -1604.6,
+        28.27,
+        232.65
+      ],
+      "garageDoor": [
+        528.55,
+        -1603.06,
+        28.31,
+        232.61
+      ]
+    }
+  },
+  {
+    "slug": "sm_garage_1_strawberry_avenue",
+    "type": "garage",
+    "name": "1 Strawberry Avenue",
+    "markers": {
+      "intercom": [
+        -249.05,
+        6237.59,
+        30.49,
+        45.77
+      ],
+      "garageDoor": [
+        -247.14,
+        6240.21,
+        30.49,
+        46.5
+      ]
+    }
+  },
+  {
+    "slug": "sm_garage_paleto_boulevard",
+    "type": "garage",
+    "name": "Paleto Boulevard",
+    "markers": {
+      "intercom": [
+        -70.38,
+        6425.23,
+        30.44,
+        223.53
+      ],
+      "garageDoor": [
+        -68.43,
+        6426.28,
+        30.44,
+        226.86
+      ]
+    }
+  },
+  {
+    "slug": "sm_garage_197_route_68",
+    "type": "garage",
+    "name": "197 Route 68",
+    "markers": {
+      "intercom": [
+        214.94,
+        2601.75,
+        44.76,
+        192.07
+      ],
+      "garageDoor": [
+        218.03,
+        2601.81,
+        44.77,
+        189.13
+      ]
+    }
+  },
+  {
+    "slug": "sm_garage_1200_route_68",
+    "type": "garage",
+    "name": "1200 Route 68",
+    "markers": {
+      "intercom": [
+        639.16,
+        2771.95,
+        41.03,
+        185.86
+      ],
+      "garageDoor": [
+        639.16,
+        2771.51,
+        41.05,
+        184.14
+      ]
+    }
+  },
+  {
+    "slug": "sm_garage_1932_grapeseed_avenue",
+    "type": "garage",
+    "name": "1932 Grapeseed Avenue",
+    "markers": {
+      "intercom": [
+        2556.15,
+        4669.63,
+        33.04,
+        206.25
+      ],
+      "garageDoor": [
+        2554.12,
+        4667.93,
+        33.03,
+        203.42
+      ]
+    }
+  },
+  {
+    "slug": "sm_garage_1920_senora_way",
+    "type": "garage",
+    "name": "1920 Senora Way",
+    "markers": {
+      "intercom": [
+        2461.76,
+        1592.09,
+        31.72,
+        93.66
+      ],
+      "garageDoor": [
+        2461.21,
+        1589.44,
+        32.04,
+        88.72
+      ]
+    }
+  },
+  {
+    "slug": "sm_garage_2000_great_ocean_highway",
+    "type": "garage",
+    "name": "2000 Great Ocean Highway",
+    "markers": {
+      "intercom": [
+        -2201.96,
+        4245.96,
+        47.23,
+        221.39
+      ],
+      "garageDoor": [
+        -2203.01,
+        4244.52,
+        47.35,
+        220.53
+      ]
+    }
+  },
+  {
+    "slug": "sm_garage_innocence_boulevard",
+    "type": "garage",
+    "name": "Innocence Boulevard",
+    "markers": {
+      "intercom": [
+        -341.94,
+        -1466.56,
+        29.61,
+        90.96
+      ],
+      "garageDoor": [
+        -342.61,
+        -1468.44,
+        29.61,
+        92.42
+      ]
+    }
+  },
+  {
+    "slug": "sm_garage_634_boulevard_del_perro",
+    "type": "garage",
+    "name": "634 Boulevard Del Perro",
+    "markers": {
+      "intercom": [
+        -1243.75,
+        -260.23,
+        37.95,
+        207.97
+      ],
+      "garageDoor": [
+        -1241.52,
+        -260.24,
+        38.11,
+        209.6
+      ]
+    }
+  },
+  {
+    "slug": "sm_garage_0897_mirror_park_boulevard",
+    "type": "garage",
+    "name": "0897 Mirror Park Boulevard",
+    "markers": {
+      "intercom": [
+        897.73,
+        -145.28,
+        75.7,
+        154.21
+      ],
+      "garageDoor": [
+        899.82,
+        -147.62,
+        75.57,
+        148.75
+      ]
+    }
+  },
+  {
+    "slug": "sm_garage_12_little_bighorn_avenue",
+    "type": "garage",
+    "name": "12 Little Bighorn Avenue",
+    "markers": {
+      "intercom": [
+        568.52,
+        -1568.14,
+        27.7,
+        141.12
+      ],
+      "garageDoor": [
+        569.73,
+        -1570.17,
+        27.58,
+        143.51
+      ]
+    }
+  },
+  {
+    "slug": "sm_garage_popular_street_unit_124",
+    "type": "garage",
+    "name": "Popular Street, Unit 124",
+    "markers": {
+      "intercom": [
+        726.8,
+        -1190.29,
+        23.28,
+        1.27
+      ],
+      "garageDoor": [
+        724.92,
+        -1189.77,
+        23.28,
+        2.26
+      ]
+    }
+  },
+  {
+    "slug": "md_garage_4531_dry_dock",
+    "type": "garage",
+    "name": "4531 Dry Dock",
+    "markers": {
+      "intercom": [
+        873.25,
+        -2233.3,
+        29.55,
+        357.93
+      ],
+      "garageDoor": [
+        870.66,
+        -2232.59,
+        29.56,
+        357.52
+      ]
+    }
+  },
+  {
+    "slug": "md_garage_870_route_68_approach",
+    "type": "garage",
+    "name": "870 Route 68 Approach",
+    "markers": {
+      "intercom": [
+        186.08,
+        2789.47,
+        44.52,
+        101.53
+      ],
+      "garageDoor": [
+        186.13,
+        2786.56,
+        45.02,
+        98.94
+      ]
+    }
+  },
+  {
+    "slug": "md_garage_8754_route_68",
+    "type": "garage",
+    "name": "8754 Route 68",
+    "markers": {
+      "intercom": [
+        -1128.2,
+        2697.26,
+        17.8,
+        314.19
+      ],
+      "garageDoor": [
+        -1129.99,
+        2700.21,
+        17.8,
+        311.67
+      ]
+    }
+  },
+  {
+    "slug": "md_garage_0432_davis_avenue",
+    "type": "garage",
+    "name": "0432 Davis Avenue",
+    "markers": {
+      "intercom": [
+        472.41,
+        -1543.65,
+        28.28,
+        142.31
+      ],
+      "garageDoor": [
+        473.65,
+        -1546.05,
+        28.28,
+        140.81
+      ]
+    }
+  },
+  {
+    "slug": "md_garage_0552_roy_lowenstein_boulevard",
+    "type": "garage",
+    "name": "0552 Roy Lowenstein Boulevard",
+    "markers": {
+      "intercom": [
+        504.64,
+        -1493.58,
+        28.29,
+        0.41
+      ],
+      "garageDoor": [
+        507.82,
+        -1492.61,
+        28.29,
+        0.8
+      ]
+    }
+  },
+  {
+    "slug": "md_garage_1905_davis_avenue",
+    "type": "garage",
+    "name": "1905 Davis Avenue",
+    "markers": {
+      "intercom": [
+        -8.26,
+        -1647.88,
+        28.32,
+        142.88
+      ],
+      "garageDoor": [
+        -11.06,
+        -1646.8,
+        28.32,
+        141.52
+      ]
+    }
+  },
+  {
+    "slug": "md_garage_popular_street_unit_14",
+    "type": "garage",
+    "name": "Popular Street Unit 14",
+    "markers": {
+      "intercom": [
+        894.83,
+        -889.41,
+        26.16,
+        269.33
+      ],
+      "garageDoor": [
+        895.84,
+        -887.11,
+        26.24,
+        269.82
+      ]
+    }
+  },
+  {
+    "slug": "md_garage_olympic_freeway_unit_1",
+    "type": "garage",
+    "name": "Olympic Freeway, Unit 1",
+    "markers": {
+      "intercom": [
+        844.53,
+        -1163.84,
+        24.27,
+        184.35
+      ],
+      "garageDoor": [
+        841.95,
+        -1165.13,
+        24.3,
+        183.66
+      ]
+    }
+  },
+  {
+    "slug": "lg_garage_0120_murrieta_heights",
+    "type": "garage",
+    "name": "0120 Murrieta Heights",
+    "markers": {
+      "intercom": [
+        963.66,
+        -1022.59,
+        39.85,
+        90.75
+      ],
+      "garageDoor": [
+        963.52,
+        -1025.45,
+        39.85,
+        90.75
+      ]
+    }
+  },
+  {
+    "slug": "lg_garage_greenwhich_parkway_unit_76",
+    "type": "garage",
+    "name": "Greenwhich Parkway, Unit 76",
+    "markers": {
+      "intercom": [
+        -1090.76,
+        -2231.1,
+        12.22,
+        136.45
+      ],
+      "garageDoor": [
+        -1088.51,
+        -2234.35,
+        12.22,
+        136.45
+      ]
+    }
+  },
+  {
+    "slug": "lg_garage_1337_exceptionalists_way",
+    "type": "garage",
+    "name": "1337 Exceptionalists Way",
+    "markers": {
+      "intercom": [
+        -667.12,
+        -2383.28,
+        12.92,
+        241.96
+      ],
+      "garageDoor": [
+        -664.55,
+        -2380.45,
+        12.94,
+        245.34
+      ]
+    }
+  },
+  {
+    "slug": "lg_garage_1623_south_shambles_street",
+    "type": "garage",
+    "name": "1623 South Shambles Street",
+    "markers": {
+      "intercom": [
+        1026.32,
+        -2394.26,
+        29.08,
+        83.18
+      ],
+      "garageDoor": [
+        1025.06,
+        -2398.24,
+        28.94,
+        102.69
+      ]
+    }
+  },
+  {
+    "slug": "lg_garage_331_supply_street",
+    "type": "garage",
+    "name": "331 Supply Street",
+    "markers": {
+      "intercom": [
+        759.49,
+        -749.99,
+        26.14,
+        95.61
+      ],
+      "garageDoor": [
+        759.14,
+        -752.65,
+        26.02,
+        88.86
+      ]
+    }
+  },
+  {
+    "slug": "lg_garage_popular_street_unit_2",
+    "type": "garage",
+    "name": "Popular Street, Unit 2",
+    "markers": {
+      "intercom": [
+        812.5,
+        -923.9,
+        25.18,
+        163.57
+      ],
+      "garageDoor": [
+        817.14,
+        -924.11,
+        25.2,
+        184.09
+      ]
+    }
+  },
+  {
+    "slug": "lg_1508_lake_vinewood_drive",
+    "type": "house",
+    "name": "1508 Lake Vinewood Drive",
+    "markers": {
+      "door": [228.77, 765.70, 203.98, 247.59],
+      "garageDoor": [220.60, 755.23, 203.85, 239.69]
+    }
+  }
+]

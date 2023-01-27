@@ -7,6 +7,11 @@ const titleCard = '[index.js]'.magenta
 
 const secureMode = false // Whether the API should be secured or not
 
+const properties = require('./data/properties.json')
+process.datastore = {
+  properties
+}
+
 require('./database/init.js').then(() => {
   console.log(titleCard, 'Database successfully initialized'.green);
 
